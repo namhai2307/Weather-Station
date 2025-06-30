@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather Station</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background-color: #f4f4f9;
+      color: #333;
+    }
+    h1 {
+      color: #0066cc;
+      margin-bottom: 20px;
+    }
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px 140px; /*vertical gap, horizontal gap */;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    .box {
+      width: 250px;
+      padding: 40px;
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+    .box .label {
+      font-weight: bold;
+      color: #0066cc;
+      margin-bottom: 10px;
+    }
+    .box .value {
+      font-size: 1.5rem;
+      color: #333;
+    }
+  </style>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <h1>Nam Tran Weather Station</h1>
+  <div class="container">
+    <div class="box">
+      <div class="label">Temperature</div>
+      <div class="value" id="temperature">--</div><p>°C</p>
+      <canvas id="tempChart">
+      </canvas>
+    </div>
+    <div class="box">
+      <div class="label">Wind Speed</div>
+      <div class="value" id="wind_speed">--</div><p>m/s</p>
+      <canvas id="windChart"></canvas>
+    </div>
+    <div class="box">
+      <div class="label">Humidity</div>
+      <div class="value" id="humidity">--</div><p>%</p>
+      <canvas id="humidChart"></canvas>
+    </div>
+    <div class="box">
+      <div class="label">UV Index</div>
+      <div class="value" id="uv_index">--</div>
+      <canvas id="UVChart"></canvas>
+    </div>
+    <div class="box">
+      <div class="label">Light Intensity</div>
+      <div class="value" id="light_intensity">--</div><p>lux</p>
+      <canvas id="luxChart"></canvas>
+    </div>
+    <div class="box">
+      <div class="label">Pressure</div>
+      <div class="value" id="pressure">--</div><p>Pa</p>
+      <canvas id="pressChart"></canvas>
+    </div>
+    <div class="box">
+      <div class="label">Rain Volume (per square meter)</div>
+      <div class="value" id="rain">--</div><p>L/m²</p>
+      <canvas id="pressChart"></canvas>
+    </div>
+    <div class="box">
+      <div class="label">AI Forecast</div>
+      <div class="value" id="ai_forecast">--</div>
+    </div>
+  </div>
+
+  <script src="App.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script>
+    import { data } from './App.js';
+    const ctx_temp = document.getElementById('tempChart');
+  
+    new Chart(ctx_temp, {
+      type: 'line',
+      data: {
+        labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
+        datasets: [{
+          label: 'Temperature last 6 hours',
+          data: [12, 19, 30, 57, 25, 3],
+          borderWidth: 1
+        }]
+      },
+      options: {
+        scales: {
+          y: {
+            beginAtZero: true
+          }
+        }
+      }
+    });
+  </script>
+</body>
+</html>

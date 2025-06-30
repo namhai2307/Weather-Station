@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "weather-station-data-450411",
+  "private_key_id": "cf435c67b4005b9b52cc72f1d60f65473e62a4b7",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC8g0nY+mQJhyms\nZWoo/Etke7Stfll+JwOFCMO5ssxhwt5VyluU6ec3cHrCaV2/MYhr80LqVD56pqQL\nip4yLycBYiJgF/d5SIfobEcBYdRP4KLCcNWzP02xOgJ77BIzsGwlmhqi6560cXTC\nRw4bUg9O+zBxRO3bJ1Cy90xADUX0ov3SKWwHpQtDLzrHnw/XuRuAc2tZY9n9KPsv\ncpMAKqovk1v12enR6dFFNqJySueSjgMrurXFcsvOa0AooHxBNyU8+61h6yZhwT86\nDQbH5dpRtHb9kUV46SkwKR4NLzrDDHeiUjGtpb4j2CZpVNEazuS6sNYIkArfO7cO\nAGZHhU9rAgMBAAECggEACKrrX6lOUDcsGLEmYHFj8LV/aTrArVGTPTAEpSqDcJCf\n3cdKzrNdM5SzEEf9TNKKOJccId9zFVCe2lOqp8QN7GexYkRigevD0/v73SRnuVnV\nd1CY2Cpg+B/NXW/3+53GWzRAD/L608Z5B+Bx1Zpq+cay7i0CgsEcBMk6HaJ+mkY6\np1fkLJqnBAamhN++027J4NAslggbDNrFSgM4cpUjKgRppth6afAn5LJU8V+6Plly\nKuaj0pyi8RXHR8F6OqMGfWnPWeCVQ2Va5J+jZ3FlcrSZE98huc8IBiPgBtRFC9YG\nrxkFLvTf6A/DbybSPiXPX5UgWTBrHsjfoLlcWLcugQKBgQDwdtCK1LLDOEG6wqFQ\n9Kl1KkiHJgafFgS8CSs+ExB3RAR1fVWQoKEpA776zP/tuNTcbBtomTifYdKbJUNj\nzOS2gYCDnEWbyCX0uOvP3kercddwbQjLprzC8U78jcAT7WKIXO67idGdraDNOts0\nJUmZTTYUPcsOB5YIQZmqZv8/lQKBgQDIsTgvM/PJSadHwzaFhtT5vYajVWanOZBa\n1c+BSjFFkaeCSTbDAxN9QJlFdjohbu6Sq2QN2/1wlRZZGi5CBC/mxBCB0BLPlfxm\nM6leLvyxBJ3zRJ8buTBSUq8ECxOF+eCLm4CMkfukksoU2yPb+HYZlPhFVVokyFsO\nfih0kHqS/wKBgQCRjBkmLyAUsdR3Kp9h1PVNCc7knsubN0SeXB5kcD2jMvRP+RD1\nfYSOwsmyHKs8RIfy8yyT30o6jodfiOqFWduF7FTRVKF9bWQsAFIbe7t9tmZkklqk\nicPvawgYLeR5K1Jcn4OQ2Bacjh+qmVlc8sTdmbKGBfEGCOlzDeHpFnahEQKBgAml\navvp1VfhcGbknSRB3M68K1KCclKrU6LqD/U46bFcVN7QQg+RgEhO6I8MJbMhr9ng\n3whDgKT+pXpW5c5KgTroRZrXs2/C18TZytQ6Ee84N5dPvw4IEqiCTOM23RNddUuA\nh+c5xQyd+ZSTC+AwywxjuqMqfRCziJzjt3IS17FlAoGAV+gJsOFZiL88M1Ped5se\n7LdH6nctf2v7yZLTz41a5tMeRu6dwPDQUWh0iDq4yXUrOon169xBQsxxbbvNp4H5\nqkN/BQbJNIvH7NcjDUxso14z7zXCKA7G45t3PHSotKp+j3/YqqL3euewwIvys+s4\nmMNgK4IY0bQPx9nZ/+EHRHI=\n-----END PRIVATE KEY-----\n",
+  "client_email": "accessgoogleapis@weather-station-data-450411.iam.gserviceaccount.com",
+  "client_id": "102323862537747228617",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/accessgoogleapis%40weather-station-data-450411.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
